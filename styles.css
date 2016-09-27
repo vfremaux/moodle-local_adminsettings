@@ -1,0 +1,24 @@
+.icondimmed {
+    opacity:0.5;
+    -moz-opacity:0.5;
+}
+
+.setting-locked {
+    border:3px red dotted;
+    padding:3px 10px;
+    margin:2px;
+}
+
+.setting-enabled-themes {
+    border:3px #e0e0e0 solid;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    background-color:#f1f1f1;
+    padding:3px 10px;
+    margin:2px 0px 10px 180px;
+}
+
+.setting-integrator {
+    border:3px green dashed;
+    padding:4px;
+}
