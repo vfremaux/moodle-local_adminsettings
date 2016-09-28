@@ -14,13 +14,23 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
+/**
+ * Version details.
+ *
+ * @package     local_adminsettings
+ * @category    local
+ * @author      Valery Fremaux <valery.fremaux@gmail.com>
+ * @copyright   2016 onwards Valery Fremaux (http://www.mylearningfactory.com)
+ * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version  = 2015040503;   // The (date) version of this plugin
-$plugin->requires = 2011120500;   // Requires this Moodle version
-$plugin->component  = 'local_adminsettings';   // The (date) version of this plugin
-$plugin->release = '2.7.0 (Build 2015040502)';
+$plugin->version  = 2015062400;   // The (date) version of this plugin.
+$plugin->requires = 2014111000;   // Requires this Moodle version.
+$plugin->component  = 'local_adminsettings';
+$plugin->release = '2.8.0 (Build 2015062400)';
 $plugin->maturity = MATURITY_RC;
 
-// Non moodle attributes
-$plugin->codeincrement = '2.7.0000';
+// Non moodle attributes.
+$plugin->codeincrement = '2.8.0000';
