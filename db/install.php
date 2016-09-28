@@ -47,7 +47,7 @@ function xmldb_local_adminsettings_install() {
          ',mod_customlabel'.
          ',enrol_autoenrol,enrol_profilefield,enrol_delayedcohorts'.
          ',local_technicalsignals,local_statigguitexts,local_my'.
-         ',block_vmoodle,local_vmoodle,report_vmoodle,block_publishflow,block_user_mnet_hosts'.
+         ',block_vmoodle,report_vmoodle,block_publishflow,block_user_mnet_hosts'.
          ',block_shop,block_shop_bills,block_shop_products,block_shop_total,auth_ticket'.
          ',mod_mplayer,mod_wowslider,mod_richmedia'.
          ',mod_scheduler,mod_jobtracker'.

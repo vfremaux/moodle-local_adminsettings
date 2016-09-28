@@ -15,20 +15,22 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @package     local_userequipment
- * @category    local
- * @author      Valery Fremaux <valery.fremaux@gmail.com>
- * @copyright   2016 Valery Fremaux (http://www.mylearningfactory.com)
- * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * Version details.
+ *
+ * @package    local_adminsettings
+ * @category   local
+ * @author     Valery Fremaux <valery.fremaux@gmail.com>
+ * @copyright  2010 onwards Valery Fremaux <valery.fremaux@gmail.com>
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
  */
- 
+
 defined('MOODLE_INTERNAL') || die;
 
 $plugin->version  = 2015040502;   // The (date) version of this plugin.
-$plugin->requires = 2015050500;   // Requires this Moodle version.
+$plugin->requires = 2015111100;   // Requires this Moodle version.
 $plugin->component  = 'local_adminsettings';
-$plugin->release = '2.9.0 (build 2015040502)';
+$plugin->release = '3.0.0 (Build 2015040502)';
 $plugin->maturity = MATURITY_BETA;
 
 // Non moodle attributes.
-$plugin->codeincrement = '2.9.0000';
+$plugin->codeincrement = '3.0.0000';
