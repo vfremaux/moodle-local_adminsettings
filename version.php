@@ -17,19 +17,20 @@
 /**
  * Version details.
  *
- * @package    local_adminsettings
- * @category   local
- * @author     Valery Fremaux <valery.fremaux@gmail.com>
- * @copyright  2010 onwards Valery Fremaux <valery.fremaux@gmail.com>
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL
+ * @package     local_adminsettings
+ * @category    local
+ * @author      Valery Fremaux <valery.fremaux@gmail.com>
+ * @copyright   2016 onwards Valery Fremaux (http://www.mylearningfactory.com)
+ * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die;
 
 $plugin->version  = 2015040503;   // The (date) version of this plugin.
 $plugin->requires = 2016051900;   // Requires this Moodle version.
-$plugin->component  = 'local_adminsettings';
+$plugin->component  = 'local_adminsettings';   // The full name of the plugin.
 $plugin->release = '3.1.0 (Build 2015040503)';
+$plugin->maturity = MATURITY_RC;
 
 // Non moodle attributes.
 $plugin->codeincrement = '3.1.0001';
